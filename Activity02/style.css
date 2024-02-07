@@ -68,13 +68,14 @@ ul {
     
 }
 .perfil02{
-    font-size: 100px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 1033.9px;
     background: rgb(188, 188, 188);
+    padding-left: 150px;
 }
 .tecDiv{
     font-size: 100px;
@@ -106,7 +107,7 @@ ul {
 
  padding-left: 150px;
 }
-.img{
+.img1{
     width: 500px;
     height: 500px;
     overflow: hidden;
@@ -114,10 +115,28 @@ ul {
     position: relative;
     padding-right: 200px;
 }
+.img2{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 100%;
+    position: relative;
+    padding-right: 200px;
+    margin-left: 500px;
+}
 .escritas{
     margin-bottom: 90px;
 }
 
 .escritas2{
+
+    font-size: 40px;
+}
+.escritaPG2{
+    word-break: keep-all;
+    margin-bottom: 90px;
+}
+
+.escritaPG2a{
     font-size: 40px;
 }
