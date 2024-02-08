@@ -18,15 +18,16 @@ body{
 }
 
 .wrap-menu{
+    font-size: 28px;
     align-items: center;
     position: fixed;
     display: flex;
     width: 100%;
-    height: 30px;
+    height: 50px;
     z-index:999;
-    background-color: rgba(255, 0, 0, 0.651);
+    background-color: rgb(255, 255, 255);
     top: 0%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(24, 1, 1, 0.986) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 ul {
@@ -45,7 +46,7 @@ ul {
 }
 .ancora{   
     text-decoration: none;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 40, 208);
     opacity: 0.8;
     font-weight: 400;
     font-size: auto;
@@ -125,7 +126,7 @@ ul {
     margin-left: 500px;
 }
 .escritas{
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .escritas2{
@@ -134,9 +135,31 @@ ul {
 }
 .escritaPG2{
     word-break: keep-all;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .escritaPG2a{
     font-size: 40px;
 }
+.quadrados{
+    margin-bottom: 35%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    border: thick double white;
+}
+.tectext1{
+    font-size: 15px;
+}
+.tectext2{
+    font-size: 15px;
+}
+.quadrados1{
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    border: thick double white;
+    margin-right: 600p
