@@ -92,21 +92,44 @@ ul {
     height: 1033.9px;
     background: rgb(166, 166, 166);
 } 
-.leftcontact{
-    background-color: aqua;
+.leftContact{
+    background-color: #ffffff;
     width: 600px;
     height: 500px;
-    padding-left: 150px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 15px;
+    padding: .5em;
+    border: 2mm ridge blue;
+    border-radius: 30px;
 }
 .rightContact{
-
+    background-color: #ffffff;
     width: 600px;
     height: 500px;
-    padding-left: 150px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 15px;
+    padding: .5em;
+    border: 2mm ridge blue;
+    border-radius: 30px;
 }
 .contactDiv{
-
- padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .img1{
     width: 500px;
@@ -126,13 +149,16 @@ ul {
     margin-left: 500px;
 }
 .escritas{
+    word-break: keep-all;
+    margin-bottom: 70px;
     margin-bottom: 70px;
 }
 
 .escritas2{
-
     font-size: 40px;
 }
+    
+
 .escritaPG2{
     word-break: keep-all;
     margin-bottom: 70px;
@@ -162,4 +188,5 @@ ul {
     display: flex;
     padding: 50px;
     border: thick double white;
-    margin-right: 600p
+    margin-right: 600
+}
