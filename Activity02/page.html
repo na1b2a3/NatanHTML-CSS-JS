@@ -14,10 +14,10 @@
 <body>
     <div class="wrap-menu">
         <ul>
-           <li class="ancora"><a href="#perfil01">Primeiro perfil</a></li>
-           <li class="ancora"><a href="#perfil02">Segundo perfil</a></li>
-            <li class="ancora"><a href="#tec">Tecnologias</a></li>
-           <li class="ancora"><a href="#contact">Contato</a></li>
+           <li><a class="ancora" href="#perfil01">Primeiro perfil</a></li>
+           <li><a class="ancora" href="#perfil02">Segundo perfil</a></li>
+            <li><a class="ancora" href="#tec">Tecnologias</a></li>
+           <li><a class="ancora" href="#contact">Contato</a></li>
         </ul>
     </div>
     <div class="perfil01" id="perfil01">
@@ -27,7 +27,7 @@
       </div>
     
         <div>
-            <img class="img1" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/05/17/539401044-rsxp634z7fezpdfsy755nvltrm.jpeg" alt="rei do futebol:">
+            <img class="img1" src="https://avatars.githubusercontent.com/u/158284007?v=4" alt="rei do futebol:">
         </div>
     </div>
     <div class="perfil02" id="perfil02">
@@ -37,7 +37,7 @@
         </div>
       
           <div>
-              <img class="img1" src="https://portalcruzeirense.com.br/wp-content/uploads/2022/10/Final-Brasil-x-Alemvestiario-e-campo-26.jpg" alt="rei do futebol:">
+              <img class="img1" src="https://avatars.githubusercontent.com/u/86568683?v=4" alt="rei do futebol:">
           </div>
     </div>
     <div class="tecDiv" id="tec">
@@ -58,30 +58,32 @@
             <p>JavaScript é uma linguagem de programação usada para adicionar interatividade e funcionalidades dinâmicas às páginas web, possibilitando a manipulação do conteúdo e a resposta a eventos do usuário.</p>
 
         </div>
-    <div>
+    </div>
     
     <div class="contactDiv" id="contact">
         <div class="leftContact">
-            <div>
+            <div style="line-height: 35px;">
                 <h2>Contato</h2>
-                <p>Aqui você poed me mandar uma mensagem.</p>
+                <p>Aqui você pode me mandar uma mensagem.</p>
             </div>
-            <div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome">
+                <input class="inputs1" type="text" id="nome">
             </div>
-            <div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <label for="mensagem">Mensagem:</label>
-                <textarea type="text" id="mensagem"></textarea>
+                <textarea class="inputs2" type="text" id="mensagem"></textarea>
             </div>
-            <button onclick="conferirMensagemWhatsApp()">Conferir dados</button>
+            <button class="botao" onclick="conferirMensagemWhatsApp()">Conferir dados</button>
         </div>
         <div class="rightContact">
-            <div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <p>Nome: <span id="confNome"></span></p>
                 <p>Mensagem: <span id="confMsg"></span></p>
             </div>
-            <button onclick="enviar()">ZAP</button>
+            <button class="botao" onclick="enviar()">Whatsapp</button>
         </div>
+    </div>
+
 </body>
 </html>

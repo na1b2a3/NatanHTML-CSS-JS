@@ -25,9 +25,9 @@ body{
     width: 100%;
     height: 50px;
     z-index:999;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(221, 222, 255);
     top: 0%;
-    box-shadow: rgba(24, 1, 1, 0.986) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(0, 0, 255, 0.25) 0px 54px 55px, rgba(0, 0, 255, 0.12) 0px -12px 30px, rgba(0, 0, 255, 0.12) 0px 4px 6px, rgba(0, 0, 255, 0.17) 0px 12px 13px, rgba(0, 0, 255, 0.09) 0px -3px 5px;
 }
 
 ul {
@@ -46,14 +46,14 @@ ul {
 }
 .ancora{   
     text-decoration: none;
-    color: rgb(255, 40, 208);
-    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
     font-weight: 400;
     font-size: auto;
  
 }
 .ancora:hover{
-    font-weight: 1000;
+    font-weight: 5000;
     opacity: 1;
 }
 
@@ -63,9 +63,9 @@ ul {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 1033.9px;
+    height: auto;
     background: rgb(199, 199, 199);
-    padding-left: 150px;
+    padding:  100px 20px 100px 150px;
     gap: 150px;
     
 }
@@ -75,17 +75,17 @@ ul {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 1033.9px;
+    height: auto;
     background: rgb(188, 188, 188);
-    padding-left: 150px;
+    padding:  100px 20px 100px 150px;
     gap: 150px;
 }
 .tecDiv{
     width: 100%;
-    height: 1033.9px;
+    height: auto;
     background-color: rgb(177, 177, 177);
     background-size: cover;
-    padding: 20px;
+    padding:  220px 20px 220px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,38 +93,40 @@ ul {
     flex-wrap: wrap;
 }
 .leftContact{
-    background-color: #ffffff;
-    width: 600px;
-    height: 500px;
+    background-color: rgb(211, 211, 211);
+    width: auto;
+    height: auto;
     line-height: 25px;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     grid-gap: 15px;
-    padding: .5em;
-    border: 2mm ridge blue;
+    padding: 60px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 255, 0.15) 0px 54px 55px, rgba(0, 0, 255, 0.02) 0px -12px 30px, rgba(0, 0, 255, 0.02) 0px 4px 6px, rgba(0, 0, 255, 0.07) 0px 12px 13px, rgba(0, 0, 255, 0.09) 0px -3px 5px;
 }
 .rightContact{
-    background-color: #ffffff;
-    width: 600px;
-    height: 500px;
+    background-color: rgb(211, 211, 211);
+    width: auto;
+    height: auto;
     line-height: 25px;
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     grid-gap: 15px;
-    padding: .5em;
-    border: 2mm ridge blue;
+    padding: 60px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 255, 0.15) 0px 54px 55px, rgba(0, 0, 255, 0.02) 0px -12px 30px, rgba(0, 0, 255, 0.02) 0px 4px 6px, rgba(0, 0, 255, 0.07) 0px 12px 13px, rgba(0, 0, 255, 0.09) 0px -3px 5px;
 }
 .contactDiv{
-    padding-top: 50px;
-    padding-bottom:50px;
+    padding:  100px 20px 100px 20px;
     width: 100%;
-    height: 1033.9px;
+    height: auto;
     background-color: grey;
     display: flex;
+    padding:  200px 20px 200px 20px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -158,8 +160,9 @@ ul {
 
 .escritas2{
     font-size: 29px;
-    margin-bottom: ;
+    /* margin-bottom: ; */
 }
+
     
 
 .escritaPG2{
@@ -208,9 +211,34 @@ ul {
     width: 200px;
     opacity: 0.5;
     transition: opacity 0.5s ease-in-out;
-    height: 1033.9px;
+    height: 300px;
       
 }
 .filhas:hover {
     opacity: 2;
+    box-shadow: rgba(0, 0, 255, 0.25) 0px 54px 55px, rgba(0, 0, 255, 0.12) 0px -12px 30px, rgba(0, 0, 255, 0.12) 0px 4px 6px, rgba(0, 0, 255, 0.17) 0px 12px 13px, rgba(0, 0, 255, 0.09) 0px -3px 5px;
+}
+.botao{
+    border: solid 1px rgb(0, 0, 255);
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+.inputs1{
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+}
+.inputs2{
+    height: 75px;
+    width: 200px;
+    border-radius: 10px;
 }
