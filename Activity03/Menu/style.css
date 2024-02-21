@@ -1,24 +1,106 @@
-.lwt{
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagens/Fundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.wrap-everything{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 50px;
-    margin-top: 20%;
-    border: 2mm solid blue;
-    padding: 80px;
-    border-radius: 50px;
+    align-items: center;
+    gap: 2vh;
+    height: 100%;
+    width: 100%;
+}
+
+.wrap-img{
+    margin-bottom: 4vh;
+    opacity: 0.8;
+    animation: fromTop 2s linear;
+}
+
+@keyframes fromTop {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.img-style{
+    width: 320px;
+    height: auto;
+    border-radius: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.lwt:hover{
-    background-color: rgba(0, 255, 255, 0.555);
-    align-items: center;
+.wrap-p{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 90px;
-    margin-top: 20%;
-    border: 2mm solid blue;
-    padding: 80px;
-    border-radius: 50px;
-    box-shadow: blue 0px 54px 55px, blue 0px -12px 30px, blue 0px 4px 6px, blue 0px 12px 13px, blue 0px -3px 5px;
+    align-items: center;
+    gap: 2vh;
+}
+
+p{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+    filter: blur(0.5px);
+    animation: show 2s linear;
+    transition: all 200ms ;
+
+}
+
+@keyframes show{
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media(width >= 800px){
+    body{
+        background-image: url(../imagens/fundo-browser.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        transition: all 1s linear;
+        overflow: hidden;
+    }
+    .img-style{
+        opacity: 0.8;
+    }
+    .img-style:hover{
+        opacity: 1;
+    }
+    p{
+        font-size: 6rem;
+        font-weight: 900;
+        opacity: 0.8;
+        filter: blur(0.8px);
+        transition: all 200ms linear;
+    }
+    p:hover{
+        cursor: pointer;
+        font-size: 6rem;
+        font-weight: 900;
+        opacity: 1;
+        filter: blur(0px);
+        transition: all 200ms linear;
+    }
 }

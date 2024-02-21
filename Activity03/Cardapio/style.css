@@ -1,0 +1,42 @@
+*{}
+
+body{
+}
+
+
+
+
+.h1{
+    width: 100%;
+}
+
+.pratos{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.bebidas{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    width: 100%;
+    gap: 7px;
+}
+.sobremesas{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.card{
+    font-size: 40px;
+}
+.card-body{
+    font-size: 20px;
+}
+.card-text{
+    
+}
