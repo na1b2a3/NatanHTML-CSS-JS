@@ -1,6 +1,18 @@
 *{}
 
 body{
+height: auto;
+
+
+}
+.body8{
+    background-color:lightslategrey;
+    height: auto;
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 
@@ -10,33 +22,48 @@ body{
     width: 100%;
 }
 
-.pratos{
+.opcoes{
     display: flex;
-    align-items: column;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 10px;
-}
-.bebidas{
-    display: flex;
-    align-items: column;
-    justify-content: center;
-    width: 100%;
-    gap: 7px;
-}
-.sobremesas{
-    display: flex;
-    align-items: column;
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
+    gap: 250px;
 }
 .card{
     font-size: 40px;
 }
 .card-body{
     font-size: 20px;
+    background-color:lavender;
+
+
 }
 .card-text{
     
+}
+.cardapio{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
+.card-img-top{
+    height: 300px;
+    width: auto;
+    
+}
+.btn-group{
+    margin-top: 20px;
+
+}
+
+@media(width <= 1024px){
+    .opcoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    
+}
 }

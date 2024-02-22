@@ -83,10 +83,16 @@ p{
         overflow: hidden;
     }
     .img-style{
+        width: 350px;
+        height: auto;
         opacity: 0.8;
+        transition: all 200ms linear;
     }
     .img-style:hover{
+        width: 400px;
+        height: auto;
         opacity: 1;
+        transition: all 200ms linear;
     }
     p{
         font-size: 6rem;
@@ -97,7 +103,7 @@ p{
     }
     p:hover{
         cursor: pointer;
-        font-size: 6rem;
+        font-size: 7rem;
         font-weight: 900;
         opacity: 1;
         filter: blur(0px);
