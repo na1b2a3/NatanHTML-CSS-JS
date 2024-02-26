@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(../imagens/Fundo.avif);
+    background-image: url(../imagens/fundo-browser.avif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -45,6 +45,7 @@ body{
 }
 
 .wrap-p{
+    font-family: "Caveat", cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,10 +54,10 @@ body{
 }
 
 p{
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-    text-shadow: 10px 10px 10px black;
+    font-size: 5rem;
+    font-weight: 7000;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgba(192, 5, 5, 0.562);
     filter: blur(0.5px);
     animation: show 2s linear;
     transition: all 200ms ;
@@ -95,6 +96,7 @@ p{
         transition: all 200ms linear;
     }
     p{
+        color: black;
         font-size: 6rem;
         font-weight: 900;
         opacity: 0.8;

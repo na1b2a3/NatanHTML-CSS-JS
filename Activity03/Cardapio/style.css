@@ -2,12 +2,15 @@
 
 body{
 height: auto;
-
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 
 }
 .body8{
-    background-color:lightslategrey;
-    height: auto;
+  
     width: 100%;
     display: flex;
 align-items: center;
